@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.2.1",
+    "npm": "6.1.0"
+  },
   "scripts": {
     "dev": "webpack --mode=development",
     "serve": "webpack-dev-server --mode=development --open",
